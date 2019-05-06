@@ -11,13 +11,13 @@ Na HOME deve ser criado o arquivo .vimrc e nele deve ser configurado as funciona
 ###### __INSTALAÇÃO__
 * No HOME crie a pasta .vim;
 * No diretorio .vim crie dois diretorios. O autoload e bundle:
-'''vim
-$ mkdir -p ~/.vim/{autoload/,bundle}
-'''
+```sh
+mkdir -p ~/.vim/{autoload/,bundle}
+```
 * Instale o geranciador __PATHOGEN__:
-'''vim
-$ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-'''
+```sh
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
 * Vá no .vimrc e coloque a seguinte linha:
 execute pathogen#infect()
 
@@ -25,20 +25,20 @@ execute pathogen#infect()
 
 ###### __INSTALANDO__
 * No terminal:
-'''vim
-$ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
-'''
+```sh
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+```
 ##### [__Lightline__](https://github.com/itchyny/lightline.vim) _Indicador de modo do VIM_
 
 ###### __INSTALANDO__
 * No terminal:
-'''vim
-$ git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
-'''
+```sh
+git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
+```
 ##### [__Asynchronous Lint Engine__](https://github.com/w0rp/ale)  checa erros de sintaxe e semântica
 
 ###### __INSTALANDO__
 * No terminal:
-'''vim
-$ git clone https://github.com/w0rp/ale.git ~/.vim/bundle/ale
-'''
+```sh
+git clone https://github.com/w0rp/ale.git ~/.vim/bundle/ale
+```
